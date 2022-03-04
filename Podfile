@@ -10,7 +10,7 @@ end
 
 target 'ApiVideoLiveStream' do
   # Pods for ApiVideoLiveStream
-  pod 'HaishinKit', '1.2.3'
+  pod 'HaishinKit', :git => 'https://github.com/novalabio/HaishinKit.swift.git', :branch => 'main'
 
   target 'Tests' do
     # Pods for testing

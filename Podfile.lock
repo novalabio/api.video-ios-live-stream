@@ -7,22 +7,29 @@ PODS:
 
 DEPENDENCIES:
   - ApiVideoLiveStream (from `.`)
-  - HaishinKit (= 1.2.3)
+  - HaishinKit (from `https://github.com/novalabio/HaishinKit.swift.git`, branch `main`)
 
 SPEC REPOS:
   trunk:
-    - HaishinKit
     - Logboard
 
 EXTERNAL SOURCES:
   ApiVideoLiveStream:
     :path: "."
+  HaishinKit:
+    :branch: main
+    :git: https://github.com/novalabio/HaishinKit.swift.git
+
+CHECKOUT OPTIONS:
+  HaishinKit:
+    :commit: 096aa2eef2750082392b290c8d0ab34d5bf6b48f
+    :git: https://github.com/novalabio/HaishinKit.swift.git
 
 SPEC CHECKSUMS:
-  ApiVideoLiveStream: b424ab6006a3dfd041a074bc6d651ba38e7ec738
+  ApiVideoLiveStream: 621b628b2428e7bdf2ff2a968f4dae4ce74cf4fa
   HaishinKit: abf62d8ed7fc380c97a96077a0e37c7f79e69e08
   Logboard: 0ab6bbd984ed032b3f0b615cef06779a73445c80
 
-PODFILE CHECKSUM: 2661050b7f5c40301af1971bddb39ee4d1d78f21
+PODFILE CHECKSUM: 98bd1268f2e32dfbdcfffab085e35d0426d4bebd
 
 COCOAPODS: 1.11.2
